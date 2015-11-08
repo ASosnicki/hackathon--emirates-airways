@@ -1146,6 +1146,16 @@ select {
     position: relative;
     right: 91.66667%;
     left: auto; } }
+
+.imagewrap {display:inline-block;position:middle;}
+.button1 {position:absolute;bottom:0;left:0;}
+.button2 {position:absolute;bottom:0;right:0;}
+.button3 {position:absolute;right:50%;top:50%;}
+
+
+
+
+
 button, .button {
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -1157,15 +1167,15 @@ button, .button {
   font-weight: normal;
   line-height: normal;
   margin: 0 0 1.25rem;
-  position: relative;
+  position: position:absolute;right:50%;top:100%;;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   padding: 1rem 2rem 1.0625rem 2rem;
   font-size: 1rem;
-  background-color: #008CBA;
+  background-color: Red;
   border-color: #007095;
-  color: #FFFFFF;
+  color: White;
   transition: background-color 300ms ease-out; }
   button:hover, button:focus, .button:hover, .button:focus {
     background-color: #007095; }
